@@ -1,0 +1,54 @@
+@font-face {
+  src: url("../../../../Fonts/Poppins-Medium.ttf");
+  font-family: Poppins-bold;
+}
+
+.shop_header {
+  font-family: Poppins-bold;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000000;
+}
+
+.shop_link {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #f4811f;
+}
+
+.shop_text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.overlay_btn {
+  height: 47.83px;
+  margin-left: 1rem;
+  background: #ffffff;
+  border-radius: 5px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  color: #f4811f;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=Shop.css.map */

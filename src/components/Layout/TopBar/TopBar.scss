@@ -1,0 +1,101 @@
+.topbar_border {
+  border-bottom: 0.5px solid #828282;
+}
+
+.cart,
+.list,
+.my_account {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #4f4f4f;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.search_area {
+  border: 0.5px solid #828282;
+  border-radius: 6px;
+  padding: 0.6rem;
+}
+
+.top_bar_search {
+  width: 283px;
+  border: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  align-items: center;
+  color: #828282;
+}
+
+.profile_section {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #4f4f4f;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .search_area {
+    display: none;
+  }
+  .my_account,
+  .list,
+  .cart {
+    display: none;
+  }
+
+  .profile_section {
+    margin-top: 1rem;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .search_area {
+    display: none;
+    border: none;
+    border-radius: 6px;
+    padding: 0.6rem;
+  }
+
+  .profile_section {
+    margin-top: 1rem;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .search_area {
+    display: none;
+    border: none;
+    border-radius: 6px;
+    padding: 0.6rem;
+  }
+
+  .profile_section {
+    margin-top: 1rem;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}

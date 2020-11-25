@@ -1,0 +1,81 @@
+.header_overlay_section {
+  max-width: 464px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.overlay_header {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.overlay_text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+
+  .overlay_text_span {
+    font-style: italic;
+  }
+}
+
+.header_btn {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  align-items: center;
+  color: #f2f2f2;
+  background: #000000;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 64px;
+}
+
+li.active {
+  background-color: #f4811f;
+}
+
+.carousel-indicators {
+  display: flex;
+  align-items: center !important;
+  justify-content: flex-start !important;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .w-100 {
+    height: 85vh;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .w-100 {
+    height: 90vh;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+   .w-100{
+    height: 95vh;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}

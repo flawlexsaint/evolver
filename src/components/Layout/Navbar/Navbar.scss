@@ -1,0 +1,99 @@
+@font-face {
+  src: url("../../Fonts/Poppins-Regular.ttf");
+  font-family: Poppins;
+}
+
+.top_bar_color {
+  background: #000000;
+  height: 48px;
+}
+
+.email_text,
+.mobile_text,
+.address_text {
+  transition: all 0.5s ease;
+  color: #ffffff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .email_text,
+  .mobile_text,
+  .address_text {
+    display: none;
+    font-size: 10px;
+  }
+
+  .topbar_mobile_icon:hover + .mobile_text {
+    display: block;
+  }
+
+  .topbar_address_icon:hover + .address_text {
+    font-size: 9px;
+    display: block;
+  }
+
+  .topbar_message_icon:hover + .email_text {
+    display: block;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .email_text,
+  .mobile_text,
+  .address_text {
+    display: none;
+    font-size: 12px;
+  }
+
+  .topbar_mobile_icon:hover + .mobile_text {
+    display: block;
+  }
+
+  .topbar_address_icon:hover + .address_text {
+    font-size: 12px;
+    display: block;
+  }
+
+  .topbar_message_icon:hover + .email_text {
+    display: block;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .email_text,
+  .mobile_text,
+  .address_text {
+    display: none;
+    font-size: 14px;
+  }
+
+  .topbar_mobile_icon:hover + .mobile_text {
+    display: block;
+  }
+
+  .topbar_address_icon:hover + .address_text {
+    font-size: 14px;
+    display: block;
+  }
+
+  .topbar_message_icon:hover + .email_text {
+    display: block;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
